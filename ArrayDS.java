@@ -1,3 +1,5 @@
+// This class is the underlying data structure storing very large sequences in a compact manner
+
 public class ArrayDS<T> implements SequenceInterface<T>, ReorderInterface {
 
     private final BagInterface<Integer>[][] array;

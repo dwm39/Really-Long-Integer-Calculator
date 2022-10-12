@@ -1,17 +1,6 @@
 
-/** Driver program for the first part of Assignment 1
- * @author Sherif Khattab (Adapted  from Dr. John Ramirez's Spring 2017 CS 0445 Assignment 1 code)
- *
- * This program must work as is with your ArrayDS<T> class.
- * Look carefully at all of the method calls so that
- *  you create your ArrayDS<T> methods correctly.  For example,
- *  note the constructor calls and the toString() method call.
- *  The output should be identical to the sample output.
- *  This will be verified by running the diff program (fc on Windows) between
- *  the provided A1Out.txt and the output of running this driver using your
- *  ArrayDS<T> implementation. The diff program shouldn't
- *  give any differences.
- */
+// This is the text Class for the ArrayDS Class.
+
 public class Assig1A
 {
 	private static final int SIZE = 5;

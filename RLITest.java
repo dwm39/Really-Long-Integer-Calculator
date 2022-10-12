@@ -1,12 +1,3 @@
-/** Driver program for the second part of Assignment 1
- * @author Sherif Khattab (Adapted from Dr. John Ramirez's Spring 2017 CS 0445 Assignment 2 code)
- *
- * This program must work as is with your ReallyLongInt class. Look carefully at all of the method calls so that
- *  you create your ReallyLongInt methods correctly.  For example, note the constructor calls and the toString() method call.
- *  The output should be identical to my sample output. This will be verified by running the diff program (fc on Windows) between
- *  the provided RLITest.txt and the output of running this driver using your ReallyLongInt implementation. The diff program shouldn't
- *  give any output.
- */
 import java.util.*;
 
 public class RLITest {

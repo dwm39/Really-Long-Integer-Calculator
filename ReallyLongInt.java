@@ -1,13 +1,5 @@
-/**
- * A partial implementation of the ReallyLongInt class.
- * 
- * @author Sherif Khattab (Adapted from Dr. John Ramirez's Spring 2017 CS 0445
- *         Assignment 2 code)
- *         You need to complete the implementation of the remaining methods.
- *         Also, for this class
- *         to work, you must complete the implementation of the ArrayDS class.
- *         See additional comments below.
- */
+// This is a subclass of ArrayDS that only takes integers
+// Purpose is to add subtract and compare really long integers
 
 public class ReallyLongInt extends ArrayDS<Integer> implements Comparable<ReallyLongInt> {
 	// Instance variables are inherited. You may not add any new instance variables

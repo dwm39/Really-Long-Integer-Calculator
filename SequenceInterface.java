@@ -1,24 +1,6 @@
-/**  SequenceInterface<T> interface for CS 0445 Assignment 1
- * @author Sherif Khattab
- * @param <T> The data type of the items stored in the sequence.
- *
- * Carefully read the specifications for each of the operations and
- * implement them correctly in your ArrayDS class.
- *
- * The overall logic of the SequenceInterface<T> is the following:
- * Data items are organized in a sequence. The items come from a fixed set of
- * possible items. That set is called the alphabet. For example, a sequence
- * of digits has the set of decimal digits as its alphabet. A sequence of letterslogically
- * has the set of letters as its alphabet. The items in the sequence have a logical order.
- * However, there is no requirement for the physical storage of the actual
- * data.  Your only requirement for the ArrayDS<T> class is that all of the
- * methods work as specified and that your ArrayDS<T> class have a
- * two-dimensional array (as explained in the assignment description) as
- * its primary data structure.
- *
- * You MAY NOT use ArrayList, Vector or any predefined collection class for your
- * ArrayDS<T> class. You MAY NOT declare one-dimensional arrays except for the
- * alphabet and in the toArray(), hasSubsequence() and reverse() methods.
+/**  SequenceInterface<T>
+ * The goal of the interface is to make a sequence and be 
+ * able to perform various tasks with this sequence
  */
 
 public interface SequenceInterface<T>

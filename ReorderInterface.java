@@ -1,10 +1,4 @@
-/** ReorderInterface interface for CS 0445 Assignment 1
- * @author Sherif Khattab (Adapted  from Dr. John Ramirez's Spring 2017 CS 0445 Assignment 1 code)
- * Carefully read the specifications for the methods below and
- * implement them in your ArrayDS<T> class.  As with the Sequence<T>
- * interface, don't worry as much about efficiency here as you do
- * about correctness.
- */
+
 public interface ReorderInterface
 {
 	/** Logically reverse the data in the ReorderInterface object so that the item
