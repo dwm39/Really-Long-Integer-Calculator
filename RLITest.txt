@@ -1,3 +1,5 @@
+Intended Program Output:
+
 R1 = 123456789
 R2 = 987654321
 
