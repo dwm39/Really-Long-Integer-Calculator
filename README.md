@@ -1,20 +1,12 @@
-# CS 0445 – Algorithms and Data Structures 1 – Assignment#1 [^1]
+# Really Long Number Calculator
 
 ## OVERVIEW
 
-**Purpose:** To refresh your Java programming skills, to emphasize the object-oriented programming
-approach used in Java, to practice working with Java single- and two-dimensional arrays, and to use the ADT Bag. Specifically, you will work with control
-structures, class-building, interfaces and generics to **create** and **utilize** a two-dimensional-array-based
-data structure.
+The ArrayDS code implements 2 interfaces called SequenceInterface<T>` and `ReorderInterface. The codes underlying data structure is a 2d array of BagInterface<T> which will store the positions of each element of the sequence based on the inputted alphabet. This data structure allows for the compact storage of long sequences in order to do certain operations. ArrayDS can do mutiple things to the sequences such as add, remove, reverse, rotate left, rotate right, and more. The ReallyLongInt class is responsible for comparing, adding, and subrtracting these long number sequnces.
 
-- **Task 1:** To design and implement a generic class `ArrayDS<T>` that will act as a data structure for accessing
-sequences of Java Objects. Your `ArrayDS<T>` class will primarily implement 2 interfaces –
-`SequenceInterface<T>` and `ReorderInterface`. The details of these interfaces are explained in the files
-`SequenceInterface.java` and `ReorderInterface.java`. **Read these files over very carefully before implementing
-your `ArrayDS<T>` class.**
+### How to Run
+Run Asig1A or ReallyLontIntTest to test each of the classes made
 
-- **Task 2:** To utilize your `ArrayDS<T>` class to store and manipulate arbitrary length **integers**. We can think of an integer as a sequence of decimal digits. For example, the number `1234` could be stored as the digit
-'1' followed by the digit '2' followed by the digit '3' followed by the digit '4'. We will store these digits in
-an `ArrayDS` object. Clearly, to perform operations on a number that is stored in this fashion, we must
-access the digits one at a time in some systematic way. More specific details follow below.
+### Software
+The user will need a version 11 of Java or higher
 
